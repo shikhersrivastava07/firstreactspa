@@ -21,8 +21,9 @@ function App() {
     <Router>
       <Header/>
       <Routes>
+      <Route element={<Home/>}/>
       
-        <Route path="/firstreactspa/" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/services" element={<Services/>}/>
       </Routes>
